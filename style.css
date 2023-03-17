@@ -269,7 +269,7 @@ p{
 }
 
 .on-cinema-card{
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,6 +279,8 @@ p{
 
 .video-autoplay{
     width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -453,16 +455,7 @@ p{
     font-size: .8rem;
 }
 
-.actor-name-soon{
-    color: rgb(255, 255, 255);
-    font-size: .7rem;
-    margin-top: .7rem;
-}
-.cast-soon{
-    color: rgb(255, 255, 255);
-    font-size: .7rem;
-    margin-top: .7rem;
-}
+
 
 .modal-description{
     padding: 1rem;
@@ -499,12 +492,46 @@ p{
 
 
 /* Coming Soon  */
+
+.header-content-soon {
+    height: 100vh;
+    padding: 64px;
+    border-radius: 1rem;
+}
+
+.header-wow {
+    background-image: url('./src/Poster-landscape/wolf-wallstreet-landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+    border-radius: 1rem;
+}
+
+.header-inception {
+    background-image: url('./src/Poster-landscape/Inception-landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+    border-radius: 1rem;
+}
+
 .card-container {
     padding: 1rem;
 }
 
 .card-horizontal {
     height: 58vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-inner-soon{
@@ -514,6 +541,21 @@ p{
 .coming-soon-hide{
     height: 100%;
     border-radius: 15px;
+}
+
+.actor-name-soon{
+    color: rgb(255, 255, 255);
+    font-size: .7rem;
+    margin-top: .7rem;
+}
+.cast-soon{
+    color: rgb(255, 255, 255);
+    font-size: .7rem;
+    margin-top: .7rem;
+}
+
+.carousel-soon{
+    border-radius: 3rem;
 }
 /* ==================================== */
 
