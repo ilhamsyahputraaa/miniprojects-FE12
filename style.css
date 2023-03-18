@@ -37,15 +37,17 @@ p{
 }
 
 .nav-transparent{
-    background-color: rgba(39, 39, 39, 0.158);
+    background-color: rgba(39, 39, 39, 0.274);
     transition-duration: 0.3s;
     height: 5rem;
+    backdrop-filter: blur(5px);
 }
 
 
 .navbar{
     margin-bottom: -90px;
     z-index: 5;
+    padding: 0px 5rem;
 }
 
 .nav-link{
