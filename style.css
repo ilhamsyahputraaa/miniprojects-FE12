@@ -50,6 +50,15 @@ p{
     padding: 0px 5rem;
 }
 
+
+/* Putus asa ini gimana caranya biar berwarna background pas collapsenya:( */
+/* .navbar-collapse.collapse{
+    margin-top: 3rem;
+    background-color: #222222;
+    padding: 2rem;
+    border-radius: 1rem;
+} */
+
 .nav-link{
     color: rgb(206, 206, 206);
 }
@@ -275,7 +284,7 @@ text-decoration: none;
 }
 
 .on-cinema-card{
-    height: 50vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -839,5 +848,28 @@ text-decoration: none;
 
 
 
+
+}
+
+@media screen and (max-width: 993px) {
+    .modal-content-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-regular-poster-container{
+        display: none;
+    }
+
+    .modal-description{
+        width: 100%;
+    }
+
+    .modal-description .regular-poster-modal{
+        padding-left: .5rem;
+        display: block;
+    }
+
+    
 
 }
