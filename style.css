@@ -71,7 +71,7 @@ p{
 /* Header */
 .header-content {
     height: 100vh;
-    padding: 64px;
+    padding: 5rem;
 }
 
 .header-tenet {
@@ -521,6 +521,11 @@ p{
     color: rgb(255, 255, 255);
 }
 
+.modal-description .regular-poster-modal{
+    padding-left: .5rem;
+    display: none;
+}
+
 .modal-content-container{
     z-index: 4;
     position: relative;
@@ -753,6 +758,78 @@ p{
         display: flex;
         flex-direction: column;
     }
+
+    .modal-regular-poster-container{
+        display: none;
+    }
+
+    .modal-description{
+        width: 100%;
+    }
+
+    .modal-description .regular-poster-modal{
+        padding-left: .5rem;
+        display: block;
+    }
+
+    
+.header-tenet {
+    background-image: url('./src/poster-header/Oppenheimer-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: 100vh;
+}
+
+.header-dunkirk {
+    background-image: url('./src/poster-header/Dunkirk-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: 100vh;
+}
+
+.color-overlay{
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(03deg, #000000 -0.22%, rgba(39, 39, 39, 0.718807) 25.03%, rgba(52, 52, 52, 0.456944) 45.68%, rgba(74, 74, 74, 0) 61.95%);
+}
+.header-inter {
+    background-image: url('./src/poster-header/Interstellar-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: 100vh;
+}
+
+.header-description{
+    padding: .5rem;
+    /* background: linear-gradient(61.9deg, #393939 -1.06%, rgba(74, 74, 74, 0.56) 97.06%); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* backdrop-filter: blur(15.5px); */
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: end;
+    border-radius: 0.5rem;
+}
+
+.header-content {
+    height: 100vh;
+    padding: 2rem;
+}
+
 
 
 
