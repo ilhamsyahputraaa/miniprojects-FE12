@@ -43,7 +43,6 @@
         color: white;
         margin-top: 4rem;
         box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.637);
-
         }
 
         .breadcrumb-item a{
@@ -76,6 +75,24 @@
           content: var(--bs-breadcrumb-divider, "/");
         }
 
+        @media screen and (max-width: 993px) {
+          .form-content{
+            background: linear-gradient(0deg, #050505 6.31%, rgba(12, 12, 12, 0.527) 100%);
+            backdrop-filter: blur(3.5px);
+            padding: .5rem;
+            border-radius: 1rem;
+            color: white;
+            margin-top: 4rem;
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.637);
+          }
+          .form-contact{
+              padding: 1rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+        }
+
     </style>
 
 </head>
@@ -97,8 +114,8 @@
                 <li class="nav-item">
                   <a class="nav-link nav-active" aria-current="page" href="./index.html">Home</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#coming-soon">Coming Soon</a></li>
-                <li class="nav-item"><a class="nav-link" href="#on-cinema">On Cinema</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html#coming-soon">Coming Soon</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html#on-cinema">On Cinema</a></li>
                 <li class="nav-item"><a class="nav-link" href="./contact-us.html">Contact Us</a></li>
               </ul>
               <!-- Button Log In -->
@@ -113,7 +130,7 @@
 
         <!-- Form Body -->
         <div class="col-12 d-flex form-contact">
-          <form class="row g-3 col-6 form-content">
+          <form class="row g-3 col-12 col-xl-6  form-content">
             <div class="img-logo">
               <img src="/src/logo/logo.png" alt="">
             </div>
@@ -174,6 +191,53 @@
           </form>
 
         </div>
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white">
+          <div class="container py-5">
+              <!-- Baris pertama -->
+            <div id="barisPertama" class="row">
+              <!-- Kolom 1 -->
+              <div id="kolom1" class="col-md-3">
+                  <img src="/src/logo/logo.png" alt="">
+                <p>Informasi tentang film terbaru dan film paling populer di box office worldwide.</p>
+              </div>
+              <!-- Kolom 3 -->
+              <div id="kolom3" class="col-md-3">
+                
+              </div>
+              <!-- Kolom 2 -->
+              <div id="kolom2" class="col-md-3">
+                <h5>About OnFlix</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="/contact-us.html">Contact Us</a></li>
+                  <li><a href="#watch-list">Watch List</a></li>
+                  <li><a data-bs-toggle="modal" data-bs-target="#signInModal">Log In</a></li>
+                </ul>
+              </div>
+              <!-- Kolom4 -->
+              <div id="kolom4" class="col-md-3">
+                <h5>Follow Me</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://dribbble.com/arteroid"> <img src="/src/sosmed icons/dribbble.svg" alt=""> Dribbble</a></li>
+                  <li><a href="https://www.behance.net/ilhamsyahzp"> <img src="/src/sosmed icons/behance.svg" alt=""> Behance</a></li>
+                  <li><a href="https://github.com/ilhamsyahputraaa"> <img src="/src/sosmed icons/github.svg" alt=""> Github</a></li>
+                  <li><a href="https://www.instagram.com/ilhamsyahzp/"> <img src="/src/sosmed icons/instagram.svg" alt=""> Instagram</a></li>
+                  <li><a href="https://www.linkedin.com/feed/"> <img src="/src/sosmed icons/linkedin.svg" alt="">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Baris kedua -->
+          <div class="container-fluid bg-secondary py-3">
+            <div class="container text-center">
+              <p class="mb-0">&copy; Ilhamsyah Putra. All rights reserved.</p>
+            </div>
+          </div>
+      </footer>        
         
 
 

@@ -51,13 +51,6 @@ p{
 }
 
 
-/* Putus asa ini gimana caranya biar berwarna background pas collapsenya:( */
-/* .navbar-collapse.collapse{
-    margin-top: 3rem;
-    background-color: #222222;
-    padding: 2rem;
-    border-radius: 1rem;
-} */
 
 .nav-link{
     color: rgb(206, 206, 206);
@@ -827,11 +820,11 @@ text-decoration: none;
 }
 
 .header-description{
-    padding: .5rem;
+    padding: 1rem;
     /* background: linear-gradient(61.9deg, #393939 -1.06%, rgba(74, 74, 74, 0.56) 97.06%); */
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     /* backdrop-filter: blur(15.5px); */
-    width: 100vw;
+    width: 90vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -844,6 +837,28 @@ text-decoration: none;
     height: 100vh;
     padding: 2rem;
 }
+.btn-stroke{
+    display: none;
+}
+
+.btn-view-modal{
+    width: 100%;
+}
+
+.navbar{
+    margin-bottom: -90px;
+    z-index: 5;
+    padding: 0px 1rem;
+}
+
+#kolom2{
+    display: none;
+}
+
+#kolom3{
+    display: none;
+}
+
 
 
 
@@ -852,6 +867,11 @@ text-decoration: none;
 }
 
 @media screen and (max-width: 993px) {
+
+    .btn-view-modal{
+        width: 100%;
+    }
+    
     .modal-content-container{
         display: flex;
         flex-direction: column;
@@ -869,6 +889,37 @@ text-decoration: none;
         padding-left: .5rem;
         display: block;
     }
+
+    /* Putus asa ini gimana caranya biar berwarna background pas collapsenya:( */
+    .navbar-collapse.collapse{
+        margin-top: 3rem;
+        background-color: #222222;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .btn-stroke{
+        display: none;
+    }
+
+    .navbar{
+        margin-bottom: -90px;
+        z-index: 5;
+        padding: 0px 2rem;
+    }
+
+    
+#kolom2{
+    display: none;
+}
+
+#kolom3{
+    display: none;
+}
+
+
+
+
 
     
 
