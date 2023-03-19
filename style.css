@@ -96,6 +96,10 @@ p{
     height: 80vh;
 }
 
+.btn-watch-header a{
+text-decoration: none;
+}
+
 .header-inter {
     background-image: url('./src/poster-header/Interstellar-header.png');
     background-size: cover;
@@ -509,8 +513,8 @@ p{
 
 
 .modal-content{
-    background-color: #1a1a1a13;
-    backdrop-filter: blur(15px);
+    background-color: #1a1a1a00;
+    backdrop-filter: blur(8px);
 }
 
 .modal-description{
@@ -529,7 +533,7 @@ p{
 .modal-content-container{
     z-index: 4;
     position: relative;
-    background: linear-gradient(180deg, #2B2B2B 0%, rgba(35, 35, 35, 0.54) 100%);
+    background: linear-gradient(180deg, #2B2B2B 0%, rgba(35, 35, 35, 0.356) 100%);
     padding-bottom: 2rem;
 }
 
@@ -652,6 +656,8 @@ p{
 .carousel-soon{
     border-radius: 1rem;
 }
+
+
 /* ==================================== */
 
 /* Foooter */
