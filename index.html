@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body id="body-background">
     <div>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark nav-transparent position-fixed w-100">
@@ -46,6 +46,7 @@
                 </ul>
                 <!-- Button Log In -->
                 <button type="button" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#signInModal">Log In</button>
+                
               </div>
             </div>
           </nav>
@@ -163,15 +164,19 @@
         </div>
         </div>
         
-        
+        <!-- Dark Mode -->
+        <div class="form-check form-switch darkmode-switch">
+            
+            <button type="button" class=" btn btn-secondary" id="light-mode">Light mode</button>
+        </div>
 
         <!-- Watch List -->
         <section id="watch-list" class="py-5 overflow-hidden">
             <div class="container-xl pb-4 pt-4 watch-list-slider">
                 <!-- Head -->
-                <div class="row mb-3 me-3 ms-3">
+                <div class="row mb-3 me-3 ms-3"  >
                     <div class="col-9">
-                        <h5> 
+                        <h5 id="section-head1"> 
                             Watch List
                         </h5>
                     </div>
@@ -303,7 +308,7 @@
                             </div>
 
                             <!-- Button Wrapper -->
-                            <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y"></div>
+                            <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y" id="button-wrapper1"></div>
 
                         </div>
                       </div>
@@ -428,7 +433,7 @@
                             </div>
 
                             <!-- Button Wrapper -->
-                            <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y"></div>
+                            <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y" id="button-wrapper2"></div>
                             
                         </div>
                       </div>
@@ -451,7 +456,7 @@
                 <!-- Head -->
                 <div class="row mb-3 me-3 ms-3">
                     <div class="col-9">
-                        <h5> 
+                        <h5 id="section-head2"> 
                             Coming Soon
                         </h5>
                     </div>
@@ -614,7 +619,7 @@
                 <!-- Head -->
                 <div class="row mb-3 me-3 ms-3">
                     <div class="col-9">
-                        <h5> 
+                        <h5 id="section-head3"> 
                             On Cinema
                         </h5>
                     </div>
@@ -752,7 +757,7 @@
                     </div>
 
                     <!-- Button Wrapper -->
-                    <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y"></div>
+                    <div class="button-wrapper position-absolute end-0 top-50 translate-middle-y" id="button-wrapper3"></div>
 
                 </div>
 
@@ -761,8 +766,8 @@
 
 
         <!-- Footer -->
-        <footer class="bg-dark text-white">
-            <div class="container py-5">
+        <footer class="bg-dark text-white" >
+            <div class="container-fluid px-5 py-5" id="footeratas">
                 <!-- Baris pertama -->
               <div id="barisPertama" class="row">
                 <!-- Kolom 1 -->
